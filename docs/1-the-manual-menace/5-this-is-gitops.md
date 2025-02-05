@@ -11,7 +11,7 @@ git remote set-url origin https://${GIT_SERVER}/${TEAM_NAME}/tech-exercise.git
 git pull
 ```
 
-1. In OpenShift UI, go to your `<TEAM_NAME>-ci-cd` project. Navigate to `Workloads > DeploymentConfigs > jenkins`.
+1. In OpenShift UI, go to your `<TEAM_NAME>-ci-cd` project. On the left hand side navigate to `Workloads > DeploymentConfigs > jenkins`.
  
 2. On the `Environment` tab, add a new variable. For example, click `➕ Add more` and on the text box put in something new or random for example `BISCUITS` with a value of `jaffa-cakes`. Hit save!
   
